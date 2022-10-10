@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body.esportes {
+  background-image: url(paralimpiadas-1280x720.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 1200px;
+  margin: auto;
+}
+
+main.esportes {
+  background-color: rgba(218, 200, 138, 0.717);
+  margin-top: 50px;
+  border: 1px solid #FFF;
+  border-radius: 15px 0px;
+  padding: 20px;
+  
+}
+
+.esportes h2 {
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(2, 70, 11);
+  padding: 10px 0px;
+}
+
+.esportes p {
+  font-size: 1.5em;
+  color: rgb(6, 1, 37);
+  padding: 20px 0px;
+  text-indent: 30px;
+  text-align: justify;
+  text-shadow: .2px .3px 0px black;
+}
+
+aside.esportes-01 {
+  background-image: url(paralimpico-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  max-width: 1200px;
+  height: 500px;
+  border: 1px solid #FFF;
+  border-radius: 15px 0px;
+}
+
+aside.esportes-02 {
+  background-image: url(paralimpico.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  max-width: 1200px;
+  height: 500px;
+  border: 1px solid #FFF;
+  border-radius: 15px 0px;
+}
+aside.esportes-03 {
+  background-image: url(taekwondo.webp);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  max-width: 1200px;
+  height: 500px;
+  border: 1px solid #FFF;
+  border-radius: 15px 0px;
+}
+
+a.historia 
+{
+  font-family: cursive;
+  color: rgb(104, 7, 26);
+  font-size: 30px;
+}
+
+a.historia:hover
+{
+  color: rgb(9, 9, 255);
+  text-decoration: underline;
+}
+
+footer.creditos a {
+  color: #E8D207;
+  font-family: var(--font-texto-2);
+}

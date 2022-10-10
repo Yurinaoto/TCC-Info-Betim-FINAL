@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.cultura {
+
+  background-image: url(cultura.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed;
+  max-width: 1200px;
+  min-width: 370px;
+  margin: auto;
+
+}
+
+main.cultura {
+  background-color: rgba(107, 128, 121, 0.845);
+  margin-top: 50px;
+  border: 1px solid rgba(240, 232, 232, 0.144);
+  border-radius: 15px 0px;
+  padding: 20px; 
+  width: 450px;
+  /* margin: auto; */
+  display: inline-block;
+  margin-left: 60%;
+}
+
+.cultura h2 {
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(47, 214, 97);
+  padding: 10px;
+  text-align: center;
+}
+
+.cultura p {
+  font-size: 1.5em;
+  color: rgb(211, 193, 25);
+  padding: 20px 0px;
+  text-align: justify;
+  text-indent: 30px;
+  /* text-shadow: .2px .3px 0px black; */
+}

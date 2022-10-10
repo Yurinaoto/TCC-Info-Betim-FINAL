@@ -1,0 +1,192 @@
+
+
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root 
+{
+  --cor0: #E8D207;
+  --cor1: #F52A16;
+  --cor2: #1D29DB;
+  --cor3: #2BF548;
+  --cor4: #EBA81A;
+  --cor5: rgba(38, 38, 107, 0.579);
+
+  --font-padrao: 'Roboto', sans-serif;
+  --cursive-texto: 'Cedarville Cursive', cursive;
+  --font-h-1-2: 'Fredericka the Great', cursive;
+  --font-texto-2: 'Sriracha', cursive;
+}
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* inicio  menu */
+
+nav
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #23232e;
+  margin-top: 1%;
+  height: 8vh;
+  border: 1px solid #FFF;
+  border-radius: 15px 0px;
+}
+
+a 
+{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover 
+{
+  opacity: 0.7;
+}
+
+.logo 
+{
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.nav-list 
+{
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li 
+{
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.mobile-menu 
+{
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div 
+{
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+@media (max-width: 999px) 
+{
+  body 
+  {
+    overflow-x: hidden;
+  }
+
+  .nav-list 
+  {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+
+  .nav-list li 
+  {
+    margin-left: 0;
+    opacity: 0;
+  }
+
+  .mobile-menu 
+  {
+    display: block;
+  }
+}
+
+.nav-list.active
+{
+  transform: translateX(0);
+}
+
+@keyframes navLinkFade 
+{
+  from 
+  {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to 
+  {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 
+{
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 
+{
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 
+{
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+/* configuração footer */
+
+footer.creditos 
+{
+  max-width: 100vw;
+  min-width: 350px;
+  background: linear-gradient(to right, rgb(32, 28, 39), rgb(25, 20, 35));
+  margin-top: 5%;
+  margin-bottom: 5px;
+  border: 1px solid #FFF;
+  border-radius: 15px 0px
+}
+
+footer.creditos p 
+{
+  color: white;
+
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: var(--font-texto-2);
+}
+
+footer.creditos a
+{
+  color: #E8D207; 
+  font-family: var(--font-texto-2);
+}

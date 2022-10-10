@@ -1,0 +1,224 @@
+
+@charset "utf-8";
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.comercio 
+{
+  background-repeat: repeat-y ;
+  max-width: 1200px;
+  min-width: 370px;
+  margin: auto;
+  background-attachment: fixed;
+  background-size: 50px;
+}
+
+main.img-geral
+{
+  background: linear-gradient(to right, rgba(197, 91, 91, 0.018), rgba(15, 214, 241, 0.176));
+  background-image: url(dinheiro.png); 
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 10px 0px;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+section 
+{
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: 1000px;
+  min-width: 350px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  /* espaçamento entre linhas */
+  margin: auto;
+  margin-top: 10px;
+}
+
+section.normal 
+{
+  background: linear-gradient(to right, rgba(141, 160, 156, 0.582), rgba(41, 65, 72, 0.628));
+
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: rgb(125, 107, 107);
+  border: 1px solid rgb(139, 178, 240);
+  border-radius: 15px 0px;
+}
+
+section.normal h1 
+{
+  font-family: var(--font-texto-2);
+  margin-bottom: 20px;
+  text-align: justify;
+  /* background: linear-gradient(to right, var(--cor1), var(--cor2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: #FFF;
+}
+
+section.normal p
+{
+  text-align: justify;
+  text-indent: 30px;
+  /* background: linear-gradient(to right, var(--cor1), var(--cor2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: #FFF;
+  font-size: 1.3vw;
+}
+
+
+section.imagem 
+{
+  background: linear-gradient(to right, rgba(141, 160, 156, 0.582), rgba(41, 65, 72, 0.628));
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: black;
+  border: 1px solid rgb(139, 147, 240);
+  border-radius: 15px 0px; 
+}
+
+/* padding: 10px;
+  opacity: .6;
+  border: 1px solid rgb(48, 64, 240);
+  border-radius: 15px 0px;
+
+*/
+
+section.imagem h1  
+{
+  font-family: var(--font-texto-2);
+  margin-bottom: 20px;
+  text-align: justify;
+  /* background: linear-gradient(to right, var(--cor1), var(--cor2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: #FFF;
+}
+
+
+/* background-color: #2e2523;
+  margin-bottom: 20px;
+  padding: 5px;
+  color: #FFF;
+  font-family: var(--font-texto-2);
+  border: 1px solid #FFF;
+  border-radius: 15px 0px; */
+
+
+
+
+section.imagem p 
+{
+  text-align: justify;
+  text-indent: 30px;
+  /* background: linear-gradient(to right, var(--cor1), var(--cor2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: #FFF;
+  font-size: 1.3vw;
+
+}
+
+
+/* 
+background-color: #070101a2;
+display: inline-block;
+text-align: justify;
+padding: 10px;
+text-indent: 30px;
+text-shadow: 2px 2px 0px black;
+color: #FFF;
+border: 1px solid #FFF;
+border-radius: 15px 0px; */
+
+
+
+
+/* 
+section#img01 
+{
+  background-image: url('/img/industria.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+} */
+
+/* section#img02 
+{
+  background-image: url('/img/petrobras.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+/* 
+section#img03 
+{
+  background-image: url('/img/betim.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+
+aside.escritor
+{
+  max-width: 1000px;
+  min-width: 350px;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+aside.escritor h3
+{
+  margin-top: 40px;
+  text-align: right;
+  color: var(--cor2);
+  font-family: cursive;
+}
+
+footer.creditos 
+{
+  max-width: 100vw;
+  min-width: 350px;
+  background: linear-gradient(to right, var(--cor3), var(--cor2));
+  margin-top: 5%;
+  margin-bottom: 5px;
+  border: 1px solid #FFF;
+  border-radius: 15px 0px;
+}
+
+footer.creditos p 
+{
+  color: var(--cor2);
+
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: var(--font-texto-2);
+}
+
+footer.creditos a
+{
+  color: #E8D207; 
+  font-family: var(--font-texto-2);
+}

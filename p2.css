@@ -1,0 +1,59 @@
+
+@charset "utf-8";
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body.saude
+{
+    background-image: url(fundo-saude.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main.saude
+{
+    background-color: rgba(159, 208, 209, 0.717);
+    margin-top: 50px;
+    border: 1px solid rgba(4, 10, 125, 0.03);
+    border-radius: 15px 0px;
+    padding: 20px;
+}
+
+.saude h2
+{
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(249, 3, 3);
+    padding: 10px 0px;
+}
+
+.saude p
+{
+    font-size: 1.5em;
+    color: rgba(88, 96, 244, 0.993);
+    padding: 20px 0px;
+    text-align: justify;
+    text-shadow: .2px .3px 0px black;
+}
+
+aside.foto
+{
+    background-image: url(saude-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 1200px;
+    height: 500px;
+    border: 1px solid rgba(215, 5, 5, 0.201);
+    border-radius: 15px 0px;
+}
